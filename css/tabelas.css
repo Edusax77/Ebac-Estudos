@@ -1,0 +1,102 @@
+
+
+table {
+
+	border: 1px double black;
+	background: #ffffff;
+	width: 100%;
+	border-collapse:collapse ; 
+
+	}.fort {
+		font-weight: bold;}
+
+.table-container{
+	background-color: rgba(40, 44, 44, 0.507);
+}
+
+table tr {
+	border: 1pix double #757575;
+	background-color: rgb(184, 188, 192);
+	padding: 1rem 0rem;
+}
+
+table th,
+table td{
+	padding: 1rem;
+	font-size: 1.6rem;
+	text-align: right;
+	border: 1px double #757575;
+	vertical-align: middle;
+	
+
+}
+.linha{
+    height: 100%;
+	border-right:1px solid rgb(17, 21, 243) ;
+	
+}
+
+table tbody tr:nth-child(even) {
+	background-color: rgba(119, 119, 156, 0.63);
+	color: rgb(25, 25, 37);
+}
+
+table tbody tr:hover {
+	background-color: rgb(128, 128, 238);
+}
+table th {
+	padding: 1rem;
+	font-size: 1.6rem;
+	text-align: right;
+	vertical-align: middle;
+	
+}
+table td {
+	padding: 1rem;
+	font-size: 1.6rem;
+	text-align: right;
+	vertical-align: middle;
+	
+}
+
+
+table tr td:first-child {
+	text-align: left;
+	font-weight: bold;
+}
+
+table th {
+	background-color: rgb(5, 5, 175);
+	color: white;
+	text-align: left;
+}
+
+.table-container {
+	padding: 2rem 1em;
+	
+}
+
+.table-container h3 {
+ text-align:center;
+ font-weight: bold;
+ font-size: 2em;
+ font-style: normal;
+ color: black;margin-bottom: 1rem;
+ margin-bottom: 1.2rem;
+
+
+	
+}
+
+.table-container tfoot {
+	background: #EEEEEE;
+}
+
+.table-container tfoot td {
+	font-weight: bold;
+	color: blue;
+}
+
+.table-container .naometa{
+	color: red;
+}
